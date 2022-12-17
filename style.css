@@ -1,0 +1,48 @@
+@charset "utf-8";
+:root{
+    --primary-color: rgba(175, 183, 253, 0.808);
+    --second-color: rgb(255, 255, 255);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font: normal 18px Arial;
+    display: flex;
+    flex-direction: column;
+    background: var(--primary-color);
+}
+
+.card{
+    background-color: var(--second-color);
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 10px;
+    /* box-shadow: 3px 3px solid rgb(29, 27, 27); */
+    width: 400px;
+    height: 70px;
+    padding: 20px;
+}
+.input{
+    padding: 2px;
+    /* height: px; */
+    width: 118px;
+    font: normal 12pt Arial;
+}
+.box{
+    height: 28px;
+}
+.btns{
+    width: 60px;
+    height: 27px;
+}
+#val-cpf{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#ger-cpf{
+    margin-top: 10px;
+    margin-left: 10px;
+}
